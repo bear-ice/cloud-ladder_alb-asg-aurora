@@ -1,0 +1,323 @@
+# -*- mode: gitignore; -*-
+### .gitignore file built from several files in github
+### Master repository: https://github.com/github/gitignore
+### All repository comments begin with ###
+### Begin repository entries
+
+### End repository entries
+
+
+### === Begin Terraform.gitignore from https://github.com/github/gitignore === ###
+### From file: Terraform.gitignore
+###      date: 2022-11-06
+###      repo: https://github.com/github/gitignore
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data, such as
+# password, private keys, and other secrets. These should not be part of version 
+# control as they are data points which are potentially sensitive and subject 
+# to change depending on the environment.
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control using negated pattern
+# !example_override.tf
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+### === End Terraform.gitignore from https://github.com/github/gitignore === ###
+
+
+### === Begin Global/Archives.gitignore from https://github.com/github/gitignore === ###
+### From file: Global/Archives.gitignore
+###      date: 2022-11-06
+###      repo: https://github.com/github/gitignore
+# It's better to unpack these files and commit the raw source because
+# git has its own built in compression methods.
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.gzip
+*.tgz
+*.bzip
+*.bzip2
+*.bz2
+*.xz
+*.lzma
+*.cab
+*.xar
+
+# Packing-only formats
+*.iso
+*.tar
+
+# Package management formats
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.msi
+*.msm
+*.msp
+*.txz
+### === End Global/Archives.gitignore from https://github.com/github/gitignore === ###
+
+
+### === Begin Global/Backup.gitignore from https://github.com/github/gitignore === ###
+### From file: Global/Backup.gitignore
+###      date: 2022-11-06
+###      repo: https://github.com/github/gitignore
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+### === End Global/Backup.gitignore from https://github.com/github/gitignore === ###
+
+
+### === Begin Global/Diff.gitignore from https://github.com/github/gitignore === ###
+### From file: Global/Diff.gitignore
+###      date: 2022-11-06
+###      repo: https://github.com/github/gitignore
+*.patch
+*.diff
+### === End Global/Diff.gitignore from https://github.com/github/gitignore === ###
+
+
+### === Begin Global/Emacs.gitignore from https://github.com/github/gitignore === ###
+### From file: Global/Emacs.gitignore
+###      date: 2022-11-06
+###      repo: https://github.com/github/gitignore
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
+
+# network security
+/network-security.data
+
+### === End Global/Emacs.gitignore from https://github.com/github/gitignore === ###
+
+
+### === Begin Global/Linux.gitignore from https://github.com/github/gitignore === ###
+### From file: Global/Linux.gitignore
+###      date: 2022-11-06
+###      repo: https://github.com/github/gitignore
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+### === End Global/Linux.gitignore from https://github.com/github/gitignore === ###
+
+
+### === Begin Global/Patch.gitignore from https://github.com/github/gitignore === ###
+### From file: Global/Patch.gitignore
+###      date: 2022-11-06
+###      repo: https://github.com/github/gitignore
+*.orig
+*.rej
+### === End Global/Patch.gitignore from https://github.com/github/gitignore === ###
+
+
+### === Begin Global/PuTTY.gitignore from https://github.com/github/gitignore === ###
+### From file: Global/PuTTY.gitignore
+###      date: 2022-11-06
+###      repo: https://github.com/github/gitignore
+# Private key
+*.ppk
+### === End Global/PuTTY.gitignore from https://github.com/github/gitignore === ###
+
+
+### === Begin Global/Vagrant.gitignore from https://github.com/github/gitignore === ###
+### From file: Global/Vagrant.gitignore
+###      date: 2022-11-06
+###      repo: https://github.com/github/gitignore
+# General
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
+### === End Global/Vagrant.gitignore from https://github.com/github/gitignore === ###
+
+
+### === Begin Global/Vim.gitignore from https://github.com/github/gitignore === ###
+### From file: Global/Vim.gitignore
+###      date: 2022-11-06
+###      repo: https://github.com/github/gitignore
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+### === End Global/Vim.gitignore from https://github.com/github/gitignore === ###
+
+
+### === Begin Global/VisualStudioCode.gitignore from https://github.com/github/gitignore === ###
+### From file: Global/VisualStudioCode.gitignore
+###      date: 2022-11-06
+###      repo: https://github.com/github/gitignore
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+### === End Global/VisualStudioCode.gitignore from https://github.com/github/gitignore === ###
+
+
+### === Begin Global/Windows.gitignore from https://github.com/github/gitignore === ###
+### From file: Global/Windows.gitignore
+###      date: 2022-11-06
+###      repo: https://github.com/github/gitignore
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+### === End Global/Windows.gitignore from https://github.com/github/gitignore === ###
+
+
+### === Begin Global/macOS.gitignore from https://github.com/github/gitignore === ###
+### From file: Global/macOS.gitignore
+###      date: 2022-11-06
+###      repo: https://github.com/github/gitignore
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+### === End Global/macOS.gitignore from https://github.com/github/gitignore === ###
